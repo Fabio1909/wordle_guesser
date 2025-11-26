@@ -17,7 +17,6 @@ Given a candidate set of possible answers, each guess produces a feedback patter
 * `game.py` runs interactive games and can run many automated rounds for evaluation.
 * `wordlist.yaml` contains test wordlist to calculate accuracy and speed metrics
 * `wordlist_dev.yaml` contains a smaller list for development.
----
 
 ## Getting Started
 
@@ -27,7 +26,6 @@ source .venv/bin/activate  # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
----
 ## Manual Mode
 
 Start the game without arguments. You will enter guesses yourself.
@@ -38,7 +36,6 @@ python game.py
 
 This launches an interactive Wordle session in the terminal.
 
----
 ## Automatic Mode
 
 Run the game with the --r flag followed by the number of rounds you want to simulate. The automatic solver will play Wordle repeatedly and print statistics at the end.
